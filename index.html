@@ -1,819 +1,1209 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>TH Multi-services</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png">
-        <link rel="manifest" href="assets/favicon_io/site.webmanifest"> -->
+<html lang="fr">
 
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-            <div class="container">
-                <!-- <a class="navbar-brand" href="#page-top"><img src="assets/img/navbar-logo.svg" alt="..." /></a> -->
-                <a class="navbar-brand" href="#page-top"><img src="assets/img/logoTH.png" alt="..." /></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars ms-1"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#portfolio">Réalisations</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#about">À Propos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Devis Gratuit</a></li>
-                        <!-- <li class="nav-item"><a class="nav-link" href="#team">(514) 863-2841</a></li> -->
-                        <li class="nav-item ms-lg-3">
-                            <a class="btn btn-primary text-white fw-bold px-4 py-2 rounded-pill" href="tel:5148632841" style="background-color: #ffc800; border-color: #ffc800;">
-                                <i class="fas fa-phone-alt me-2"></i>(514) 863-2841
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- Masthead-->
-        <header class="masthead">
-            <div class="container">
-                <div class="masthead-subheading">ON DÉBARRASSE TOUT, RAPIDE & SANS TRACAS</div>
-                <div class="masthead-heading text-uppercase">Service de débarras résidentiel & commercial</div>
-                <!-- <a class="btn btn-primary btn-xl text-uppercase" href="#services">Tell Me More</a> -->
-                 <a class="btn btn-primary btn-xl text-uppercase" href="#contact">OBTENIR UN DEVIS GRATUIT</a>
-            </div>
-        </header>
-        <!-- Services-->
-        <section class="page-section" id="services">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Nos Services</h2>
-                    <h3 class="section-subheading text-muted">Des solutions rapides et professionnelles pour particuliers et entreprises.</h3>
-                </div>
-                <div class="row text-center">
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-trash-can fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Débarras & Récupération</h4>
-                        <p class="text-muted">Nous vidons vos espaces encombrés : sous-sols, garages, greniers, entrepôts ou successions. Nous ramassons vos vieux meubles, électroménagers et détritus, puis nous nettoyons tout après notre passage.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-truck-moving fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Déménagement</h4>
-                        <p class="text-muted">Un service de déménagement résidentiel et commercial local, sécuritaire et sur mesure. Notre équipe qualifiée prend soin de vos biens, de l'emballage jusqu'au transport vers votre nouvelle adresse.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-dolly fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Transport & Livraison</h4>
-                        <p class="text-muted">Besoin de déplacer un objet lourd, d'un service de ramassage en magasin ou d'une livraison rapide ? Nous mettons à votre disposition nos camions et nos bras pour acheminer vos marchandises en toute confiance.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Portfolio Grid-->
-        <section class="page-section bg-light" id="portfolio">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Nos Chantiers</h2>
-                    <h3 class="section-subheading text-muted">Découvrez en images la qualité de notre travail à Montréal et ses environs.</h3>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 1-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/photo1.jpeg" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Protection de matériel fragile</div>
-                                <div class="portfolio-caption-subheading text-muted">Emballage premium</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 2-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/photo2.jpeg" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Déménagement résidentiel clé en main</div>
-                                <div class="portfolio-caption-subheading text-muted">Optimisation & Sécurité</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 3-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/photo3.jpeg" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Préparation des meubles sur place</div>
-                                <div class="portfolio-caption-subheading text-muted">Service à domicile</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-                        <!-- Portfolio item 4-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/photo4.jpeg" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Vidage et nettoyage de terrasse</div>
-                                <div class="portfolio-caption-subheading text-muted">Service Débarras Express</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
-                        <!-- Portfolio item 5-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/photo5.jpeg" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Évacuation de débris de chantier</div>
-                                <div class="portfolio-caption-subheading text-muted">Nettoyage après travaux</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <!-- Portfolio item 6-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/photo6.jpeg" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Transport de boîtes et valises</div>
-                                <div class="portfolio-caption-subheading text-muted">Rangement méthodique</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- About-->
-         <section class="page-section" id="about">
-    <div class="container">
-        <div class="text-center">
-            <h2 class="section-heading text-uppercase">À PROPOS</h2>
-            <h3 class="section-subheading text-muted">Notre engagement : un service professionnel, efficace et sans stress.</h3>
-        </div>
-        <ul class="timeline">
-            <li>
-                <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="Satisfaction Client" /></div>
-                <div class="timeline-panel">
-                    <div class="timeline-heading">
-                        <h4>Notre Priorité</h4>
-                        <h4 class="subheading">La satisfaction totale des clients</h4>
-                    </div>
-                    <div class="timeline-body">
-                        <p class="text-muted">Votre sérénité est notre réussite. Nous mettons tout en œuvre pour offrir une expérience fluide, une communication transparente et une écoute attentive afin de répondre parfaitement à vos besoins spécifiques.</p>
-                    </div>
-                </div>
-            </li>
-            
-            <li class="timeline-inverted">
-                <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="Qualité de Service" /></div>
-                <div class="timeline-panel">
-                    <div class="timeline-heading">
-                        <h4>Notre Savoir-Faire</h4>
-                        <h4 class="subheading">Un service clé en main d'excellence</h4>
-                    </div>
-                    <div class="timeline-body">
-                        <p class="text-muted">Grâce à une équipe dynamique et professionnelle, nous prenons soin de vos biens lors de chaque manipulation. Ponctualité, courtoisie, rigueur et efficacité définissent la qualité constante de notre travail sur le terrain.</p>
-                    </div>
-                </div>
-            </li>
-            
-            <li>
-                <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt="Nos Services" /></div>
-                <div class="timeline-panel">
-                    <div class="timeline-heading">
-                        <h4>Nos Prestations</h4>
-                        <h4 class="subheading">Déménagement et Débarras complets</h4>
-                    </div>
-                    <div class="timeline-body">
-                        <p class="text-muted">Nous couvrons un large éventail de besoins : du déménagement résidentiel complet au transport léger de colis et valises, en passant par le ramassage de débris de chantier et le vidage total de locaux encombrés.</p>
-                    </div>
-                </div>
-            </li>
-            
-            <li class="timeline-inverted">
-                <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="Engagement Humanitaire" /></div>
-                <div class="timeline-panel">
-                    <div class="timeline-heading">
-                        <h4>Notre Impact</h4>
-                        <h4 class="subheading">Seconde vie aux objets & Dons humanitaires</h4>
-                    </div>
-                    <div class="timeline-body">
-                        <p class="text-muted">Parce que chaque geste compte, nous trions méticuleusement les biens récupérés. Tout le mobilier, le matériel et les affaires réutilisables sont gracieusement redistribués à des organisations humanitaires partenaires pour aider ceux qui en ont besoin.</p>
-                    </div>
-                </div>
-            </li>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-            <li>
-                <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="Meilleurs Prix" /></div> <div class="timeline-panel">
-                    <div class="timeline-heading">
-                        <h4>Tarification</h4>
-                        <h4 class="subheading">Les meilleurs tarifs du marché</h4>
-                    </div>
-                    <div class="timeline-body">
-                        <p class="text-muted">Bénéficiez d'un service haut de gamme sans vous ruiner. Nous garantissons des prix transparents, ultra-compétitifs et adaptés à votre budget réel, sans aucune surprise ni frais cachés.</p>
-                    </div>
-                </div>
-            </li>
-            
-            <li class="timeline-inverted">
-                <div class="timeline-image">
-                    <h4>
-                        Faites
-                        <br />
-                        Confiance à
-                        <br />
-                        Notre Équipe !
-                    </h4>
-                </div>
-            </li>
-        </ul>
-    </div>
-</section>
-        <!-- <section class="page-section" id="about">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">À PROPOS</h2>
-                    <h3 class="section-subheading text-muted">Notre engagement : un service professionnel, efficace et sans stress.</h3>
-                </div>
-                <ul class="timeline">
-                    <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="..." /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>2009-2011</h4>
-                                <h4 class="subheading">Our Humble Beginnings</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="..." /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>March 2011</h4>
-                                <h4 class="subheading">An Agency is Born</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt="..." /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>December 2015</h4>
-                                <h4 class="subheading">Transition to Full Service</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="..." /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>July 2020</h4>
-                                <h4 class="subheading">Phase Two Expansion</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                            <h4>
-                                Be Part
-                                <br />
-                                Of Our
-                                <br />
-                                Story!
-                            </h4>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </section> -->
-        <!-- Team-->
-        <!-- <section class="page-section bg-light" id="team">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="..." />
-                            <h4>Parveen Anand</h4>
-                            <p class="text-muted">Lead Designer</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Twitter Profile"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Facebook Profile"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="..." />
-                            <h4>Diana Petersen</h4>
-                            <p class="text-muted">Lead Marketer</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Twitter Profile"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Facebook Profile"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="..." />
-                            <h4>Larry Parker</h4>
-                            <p class="text-muted">Lead Developer</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Twitter Profile"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Facebook Profile"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p></div>
-                </div>
-            </div>
-        </section> -->
-        <!-- Clients-->
-        <!-- <div class="py-5">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/microsoft.svg" alt="..." aria-label="Microsoft Logo" /></a>
-                    </div>
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/google.svg" alt="..." aria-label="Google Logo" /></a>
-                    </div>
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/facebook.svg" alt="..." aria-label="Facebook Logo" /></a>
-                    </div>
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/ibm.svg" alt="..." aria-label="IBM Logo" /></a>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-        <!-- Contact-->
-        
-       
-        <!-- Section Demande de Devis -->
-<section class="page-section" id="contact">
-    <div class="container">
-        <div class="text-center">
-            <h2 class="section-heading text-uppercase">Demande de devis gratuit</h2>
-            <h3 class="section-subheading text-muted">Décrivez votre projet et joignez des photos pour une estimation rapide.</h3>
-        </div>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18331112277"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'AW-18331112277');
+  </script>
 
-        <form id="contactForm" enctype="multipart/form-data">
-            <div class="row align-items-stretch mb-5">
-                
-                <!-- Colonne de Gauche -->
-                <div class="col-md-6">
-                    <div class="form-group mb-3">
-                        <input class="form-control" id="name" type="text" placeholder="Votre nom complet *" required />
-                    </div>
-                    <div class="form-group mb-3">
-                        <input class="form-control" id="email" type="email" placeholder="Votre courriel *" required />
-                    </div>
-                    <div class="form-group mb-3">
-                        <input class="form-control" id="phone" type="tel" placeholder="Votre téléphone *" required />
-                    </div>
-                    <div class="form-group mb-3">
-                        <select class="form-control form-select py-3" id="service" style="color: #6c757d; height: auto;" required>
-                            <option value="" disabled selected>Sélectionnez le service désiré *</option>
-                            <option value="Déménagement professionnel">Déménagement professionnel</option>
-                            <option value="Ramassage de débris / Débarras">Ramassage de débris / Débarras</option>
-                            <option value="Autre service">Autre service</option>
-                        </select>
-                    </div>
-                    <div class="row">
-                        <div class="col-6 form-group mb-0">
-                            <input class="form-control" id="adresseDepart" type="text" placeholder="Adresse de départ *" required />
-                        </div>
-                        <div class="col-6 form-group mb-0">
-                            <input class="form-control" id="adresseArrivee" type="text" placeholder="Adresse d'arrivée" />
-                        </div>
-                    </div>
-                </div>
+  <!-- Primary Meta Tags - Local SEO Optimized -->
+  <title>Ramassage &amp; Déménagement Montréal, Rive-Nord et Rive-Sud | TH Multi-services</title>
+  <meta name="description"
+    content="TH Multi-services : débarras, enlèvement d'encombrants, déménagement, déménageur, démolition légère, ramassage de gravats, évacuation de briques, vide maison à Montréal, Rive-Nord et Rive-Sud. Junk removal, debris removal, local movers, moving services, light demolition, brick pick up, hauling services, house cleanout. Devis gratuit 24h — (514) 863-2841." />
+  <meta name="author" content="TH Multi-services" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://thmultiservices.ca/" />
+  <link rel="alternate" hreflang="fr-CA" href="https://thmultiservices.ca/" />
+  <link rel="alternate" hreflang="en-CA" href="https://thmultiservices.ca/" />
 
-                <!-- Colonne de Droite -->
-                <div class="col-md-6 d-flex flex-column justify-content-between">
-                    <div class="form-group form-group-textarea mb-3 mb-md-4 flex-grow-1">
-                        <textarea class="form-control h-100" id="message" placeholder="Détails du projet (Ex: liste des meubles, volume de débris, étage, présence d'un ascenseur...) *" required style="min-height: 160px;"></textarea>
-                    </div>
-                    <div class="form-group mb-md-0">
-                        <label for="photos" class="form-label text-muted small ps-2 mb-1" style="color: rgba(255,255,255,0.7) !important;">Ajouter des photos (Optionnel - Max 5 images) :</label>
-                        <input class="form-control" id="photos" type="file" accept="image/*" multiple style="padding: 0.6rem 0.75rem;" />
-                        <div id="preview-container" class="d-flex flex-wrap gap-2 mt-2"></div>
-                    </div>
-                </div>
-            </div>
+  <!-- SEO Keywords (bilingual — FR + EN) -->
+  <meta name="keywords"
+    content="ramassage, débarras, enlèvement d'encombrants, déménagement, déménageur, démolition légère, ramassage de gravats, évacuation de briques, vide maison, junk removal, debris removal, local movers, moving services, light demolition, brick pick up, hauling services, house cleanout, Montréal, Rive-Nord, Rive-Sud, Laval, Grand Montréal" />
 
-            <div class="d-none" id="submitSuccessMessage">
-                <div class="text-center text-success mb-3 fw-bolder fs-5">
-                    ✓ Demande envoyée avec succès ! Nous vous répondrons rapidement.
-                </div>
-            </div>
-            <div class="d-none" id="submitErrorMessage">
-                <div class="text-center text-danger mb-3 fw-bolder">
-                    ✕ Une erreur est survenue. Veuillez vérifier vos informations ou réessayer.
-                </div>
-            </div>
+  <!-- Open Graph / Localized Preview Branding -->
+  <meta property="og:title" content="Ramassage &amp; Déménagement Montréal, Rive-Nord et Rive-Sud | TH Multi-services" />
+  <meta property="og:description"
+    content="Ramassage, débarras, enlèvement d'encombrants, déménagement, déménageur, démolition légère, ramassage de gravats, évacuation de briques, vide maison à Montréal, Rive-Nord et Rive-Sud. Junk removal, debris removal, local movers, moving services, light demolition, brick pick up, hauling services, house cleanout. Contactez TH multi services au 514-863-2841." />
+  <meta property="og:url" content="https://thmultiservices.ca/" />
+  <meta property="og:image" content="https://thmultiservices.ca/assets/img/header-bg-nw.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="fr_CA" />
+  <meta property="og:locale:alternate" content="en_CA" />
 
-            <div class="text-center">
-                <button class="btn btn-primary btn-xl text-uppercase" id="submitButton" type="submit">Obtenir mon devis</button>
-            </div>
-        </form>
-    </div>
-</section>
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
 
-<style>
-#preview-container {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 10px;
-}
-.gmail-badge {
-    background-color: #f1f3f4;
-    border: 1px solid #c4c7c5;
-    border-radius: 16px;
-    padding: 6px 12px;
-    display: inline-flex;
-    align-items: center;
-    font-size: 0.85rem;
-    max-width: 200px;
-    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
-    margin-right: 8px;
-    margin-bottom: 8px;
-}
-.gmail-thumb {
-    width: 24px;
-    height: 24px;
-    object-fit: cover;
-    border-radius: 4px;
-    margin-right: 8px;
-}
-.gmail-filename {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    color: #1f1f1f;
-    margin-right: 8px;
-    font-weight: 500;
-}
-.gmail-remove {
-    cursor: pointer;
-    color: #626262;
-    font-weight: bold;
-    border: none;
-    background: none;
-    padding: 0 4px;
-    font-size: 1.1rem;
-    line-height: 1;
-}
-.gmail-remove:hover {
-    color: #dc3545;
-}
-</style>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght=0,500;0,600;0,700;0,800;1,500&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
 
-<script>
-// 1. Prévisualisation des photos
-document.getElementById('photos').addEventListener('change', function(e) {
-    const container = document.getElementById('preview-container');
-    container.innerHTML = '';
-    const files = e.target.files;
+  <!-- Icons -->
+  <script defer src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
 
-    if (files.length > 5) {
-        alert("Vous pouvez sélectionner un maximum de 5 photos.");
-        this.value = '';
-        return;
-    }
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css" />
 
-    for (let i = 0; i < files.length; i++) {
-        const file = files[i];
-        if (!file.type.match('image.*')) continue;
-
-        const reader = new FileReader();
-        reader.onload = function(event) {
-            const badge = document.createElement('div');
-            badge.className = 'gmail-badge';
-
-            const img = document.createElement('img');
-            img.src = event.target.result;
-            img.className = 'gmail-thumb';
-
-            const nameSpan = document.createElement('span');
-            nameSpan.className = 'gmail-filename';
-            nameSpan.textContent = file.name;
-
-            const removeBtn = document.createElement('button');
-            removeBtn.type = 'button';
-            removeBtn.className = 'gmail-remove';
-            removeBtn.innerHTML = '&times;';
-            removeBtn.onclick = function() {
-                badge.remove();
-                if (container.children.length === 0) {
-                    document.getElementById('photos').value = '';
-                }
-            };
-
-            badge.appendChild(img);
-            badge.appendChild(nameSpan);
-            badge.appendChild(removeBtn);
-            container.appendChild(badge);
-        };
-        reader.readAsDataURL(file);
-    }
-});
-
-// 2. Envoi du formulaire avec Web3Forms
-document.getElementById('contactForm').addEventListener('submit', async function(e) {
-    e.preventDefault();
-
-    const form = e.target;
-    const button = document.getElementById('submitButton');
-    const successDiv = document.getElementById('submitSuccessMessage');
-    const errorDiv = document.getElementById('submitErrorMessage');
-
-    button.disabled = true;
-    button.innerText = "Envoi en cours...";
-
-    const formData = new FormData();
-
-    // Clé Web3Forms
-    formData.append('access_key', '51e3ae7f-27d3-47ba-97da-d88e71d4d4ee');
-
-    // Champs du formulaire
-    formData.append('Nom Complet',       document.getElementById('name').value);
-    formData.append('email',             document.getElementById('email').value);
-    formData.append('Téléphone',         document.getElementById('phone').value);
-    formData.append('Service Souhaité',  document.getElementById('service').value);
-    formData.append('Adresse Départ',    document.getElementById('adresseDepart').value);
-    formData.append('Adresse Arrivée',   document.getElementById('adresseArrivee').value);
-    formData.append('Détails du Projet', document.getElementById('message').value);
-
-    // Photos en pièces jointes
-    const files = document.getElementById('photos').files;
-    for (let i = 0; i < files.length; i++) {
-        formData.append('attachment[]', files[i], files[i].name);
-    }
-
-    try {
-        const response = await fetch('https://api.web3forms.com/submit', {
-            method: 'POST',
-            body: formData
-        });
-
-        const result = await response.json();
-
-        if (result.success) {
-            successDiv.classList.remove('d-none');
-            errorDiv.classList.add('d-none');
-            form.reset();
-            document.getElementById('preview-container').innerHTML = '';
-            button.innerText = "Devis envoyé !";
-        } else {
-            throw new Error(result.message || 'Erreur inconnue');
+  <!-- Structured Data JSON-LD (MovingCompany / LocalBusiness) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MovingCompany",
+    "@id": "https://thmultiservices.ca/#organization",
+    "name": "TH multi services",
+    "url": "https://thmultiservices.ca/",
+    "logo": "https://thmultiservices.ca/assets/img/logoTH.png",
+    "image": "https://thmultiservices.ca/assets/img/header-bg-nw.png",
+    "description": "Service professionnel de ramassage résidentiel & commercial, débarras, vide maison, déménagement et démolition légère à Montréal, Rive-Nord et Rive-Sud.",
+    "telephone": "+1-514-863-2841",
+    "email": "thmultiservices95@gmail.com",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Montréal",
+      "addressRegion": "QC",
+      "addressCountry": "CA"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 45.576958,
+      "longitude": -73.803093
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "00:00",
+      "closes": "23:59"
+    },
+    "areaServed": [
+      {
+        "@type": "AdministrativeArea",
+        "name": "Montréal"
+      },
+      {
+        "@type": "AdministrativeArea",
+        "name": "Laval"
+      },
+      {
+        "@type": "AdministrativeArea",
+        "name": "Grand Montréal"
+      }
+    ],
+    "sameAs": [
+      "https://www.google.com/maps/place/TH+multi+services/@45.8030717,-74.5032461,9.58z/data=!4m6!3m5!1s0xd94cd2e55837213:0x8674ed885a604faf!8m2!3d45.576958!4d-73.803093!16s%2Fg%2F11z0w74b9_?entry=ttu"
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Services TH Multi-services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Service de ramassage résidentiel",
+            "description": "Ramassage complet de maisons, condos, sous-sols, garages et greniers à Montréal, Rive-Nord et Rive-Sud."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Service de ramassage commercial",
+            "description": "Désencombrement de bureaux, entrepôts, commerces et locaux industriels."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Ramassage & Récupération",
+            "description": "Ramassage de meubles, électroménagers défectueux et résidus avec tri sélectif et dons."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Déménagement Professionnel",
+            "description": "Déménagement résidentiel et commercial local ou longue distance de haute sécurité."
+          }
         }
-    } catch (err) {
-        console.error(err);
-        errorDiv.classList.remove('d-none');
-        successDiv.classList.add('d-none');
-        button.disabled = false;
-        button.innerText = "Obtenir mon devis";
+      ]
     }
-});
-</script>
-        <!-- Footer-->
-        <footer class="footer py-4">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-4 text-lg-start">TH Multi-services 2026</div>
-                    <div class="col-lg-4 my-3 my-lg-0">
-                        <!-- <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a> -->
-                    </div>
-                    <div class="col-lg-4 text-lg-end">
-                        <a class="link-dark text-decoration-none me-3" href="#!">thmultiservices95@gmail.com</a>
-                        <!-- <a class="link-dark text-decoration-none" href="#!">Terms of Use</a> -->
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- Portfolio Modals-->
-        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Fermer" /></div>
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                        <div class="modal-body">
-                            <h2 class="text-uppercase">Vidage et nettoyage de terrasse</h2>
-                            <p class="item-intro text-muted">Service Débarras Express</p>
-                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/photo4.jpeg" alt="Nettoyage de terrasse" />
-                            <p>Ramassage complet de vos anciens meubles d'extérieur, pots de fleurs brisés, dalles abîmées ou détritus accumulés. Nous laissons votre terrasse propre et prête à être réaménagée.</p>
-                            <ul class="list-inline">
-                                <li><strong>Catégorie :</strong> Débarras / Junk Removal</li>
-                            </ul>
-                            <a class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" href="#contact" onclick="const modalEl = this.closest('.modal'); const modal = bootstrap.Modal.getInstance(modalEl) || new bootstrap.Modal(modalEl); modal.hide(); setTimeout(() => { document.getElementById('contact').scrollIntoView({ behavior: 'smooth' }); }, 350);">
-                                <i class="fas fa-calculator me-1"></i> Devis gratuit
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+  }
+  </script>
+</head>
 
-<div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Fermer" /></div>
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                        <div class="modal-body">
-                            <h2 class="text-uppercase">Évacuation de débris de chantier</h2>
-                            <p class="item-intro text-muted">Nettoyage après travaux</p>
-                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/photo5.jpeg" alt="Débris de chantier" />
-                            <p>Évacuation rapide des résidus de matériaux après rénovation ou construction : bois de charpente, morceaux de gypse, briques, tapis arrachés et sacs de gravats.</p>
-                            <ul class="list-inline">
-                                <li><strong>Catégorie :</strong> Détritus & Matériaux</li>
-                            </ul>
-                            <a class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" href="#contact" onclick="const modalEl = this.closest('.modal'); const modal = bootstrap.Modal.getInstance(modalEl) || new bootstrap.Modal(modalEl); modal.hide(); setTimeout(() => { document.getElementById('contact').scrollIntoView({ behavior: 'smooth' }); }, 350);">
-                                <i class="fas fa-calculator me-1"></i> Devis gratuit
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+<body>
 
-<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Fermer" /></div>
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                        <div class="modal-body">
-                            <h2 class="text-uppercase">Transport de boîtes et valises</h2>
-                            <p class="item-intro text-muted">Rangement méthodique</p>
-                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/photo6.jpeg" alt="Transport d'effets personnels" />
-                            <p>Prise en charge de vos cartons d'effets personnels, bacs de rangement et bagages volumineux pour un transfert rapide et sécurisé d'un point A à un point B.</p>
-                            <ul class="list-inline">
-                                <li><strong>Catégorie :</strong> Transport Léger / Déménagement</li>
-                            </ul>
-                            <a class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" href="#contact" onclick="const modalEl = this.closest('.modal'); const modal = bootstrap.Modal.getInstance(modalEl) || new bootstrap.Modal(modalEl); modal.hide(); setTimeout(() => { document.getElementById('contact').scrollIntoView({ behavior: 'smooth' }); }, 350);">
-                                <i class="fas fa-calculator me-1"></i> Devis gratuit
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+  <!-- ═══════ HEADER / NAVIGATION ═══════ -->
+  <header>
+    <nav id="mainNav" role="navigation" aria-label="Navigation principale">
+      <div class="nav-inner">
+        <a href="#hero" class="nav-logo" aria-label="TH Multi-services — Retour à l'accueil">
+          <img src="assets/img/logoTH.png" alt="Logo de l'entreprise de ramassage et déménagement TH Multi-services"
+            width="160" height="52" />
+        </a>
 
-<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Fermer" /></div>
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                        <div class="modal-body">
-                            <h2 class="text-uppercase">Déménagement résidentiel</h2>
-                            <p class="item-intro text-muted">Service complet et sécurisé</p>
-                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/photo1.jpeg" alt="Déménagement appartement" />
-                            <p>Service de transport pour vos appartements, condos et maisons. Nos équipes protègent vos meubles sous couvertures et manipulent vos biens avec le plus grand soin.</p>
-                            <ul class="list-inline">
-                                <li><strong>Catégorie :</strong> Déménagement Professionnel</li>
-                            </ul>
-                            <a class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" href="#contact"onclick="const modalEl = this.closest('.modal'); const modal = bootstrap.Modal.getInstance(modalEl) || new bootstrap.Modal(modalEl); modal.hide(); setTimeout(() => { document.getElementById('contact').scrollIntoView({ behavior: 'smooth' }); }, 350);">
-                                <i class="fas fa-calculator me-1"></i> Devis gratuit
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <ul class="nav-links" role="list">
+          <li><a href="#services">Services</a></li>
+          <li><a href="ramassage.html">Ramassage</a></li>
+          <li><a href="demenagement.html">Déménagement</a></li>
+          <li><a href="#portfolio">Réalisations</a></li>
+          <li><a href="#about">À Propos</a></li>
+          <li><a href="#service-area">Secteurs</a></li>
+          <li><a href="#reviews">Avis</a></li>
+          <li><a href="#contact">Devis Gratuit</a></li>
+        </ul>
+        <div class="nav-cta">
+          <a href="tel:5148632841" class="nav-phone" aria-label="Appeler TH Multi-services au 514-863-2841">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path
+                d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .99h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.79a16 16 0 006.12 6.12l1.07-1.16a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" />
+            </svg>
+            (514) 863-2841
+          </a>
         </div>
-    </div>
-</div>
 
-<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Fermer" /></div>
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                        <div class="modal-body">
-                            <h2 class="text-uppercase">Nettoyage de garage & sous-sol</h2>
-                            <p class="item-intro text-muted">Tri et tri sélectif</p>
-                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/photo2.jpeg" alt="Débarras de sous-sol" />
-                            <p>Besoin de vider des années d'accumulation ? Nous trions et ramassons tout ce qui vous encombre : vieux électroménagers, vélos brisés, cartons humides, direction l'écocentre.</p>
-                            <ul class="list-inline">
-                                <li><strong>Catégorie :</strong> Junk Removal / Écocentre</li>
-                            </ul>
-                            <a class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" href="#contact" onclick="const modalEl = this.closest('.modal'); const modal = bootstrap.Modal.getInstance(modalEl) || new bootstrap.Modal(modalEl); modal.hide(); setTimeout(() => { document.getElementById('contact').scrollIntoView({ behavior: 'smooth' }); }, 350);">
-                                <i class="fas fa-calculator me-1"></i> Devis gratuit
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+        <button id="nav-toggle" aria-label="Menu de navigation mobile" aria-expanded="false" aria-controls="nav-mobile">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
 
-<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Fermer" /></div>
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                        <div class="modal-body">
-                            <h2 class="text-uppercase">Livraison d'objets lourds</h2>
-                            <p class="item-intro text-muted">Manutention spécialisée</p>
-                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/photo3.jpeg" alt="Meubles lourds" />
-                            <p>Acheminement de mobilier volumineux ou lourds acheté en magasin ou en ligne (divans, réfrigérateurs, laveuses, tables massives). Livraison et manutention sans effort pour vous.</p>
-                            <ul class="list-inline">
-                                <li><strong>Catégorie :</strong> Transport & Livraison</li>
-                            </ul>
-                            <a class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" href="#contact"onclick="const modalEl = this.closest('.modal'); const modal = bootstrap.Modal.getInstance(modalEl) || new bootstrap.Modal(modalEl); modal.hide(); setTimeout(() => { document.getElementById('contact').scrollIntoView({ behavior: 'smooth' }); }, 350);">
-                                <i class="fas fa-calculator me-1"></i> Devis gratuit
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <!-- Mobile Drawer -->
+    <nav id="nav-mobile" aria-hidden="true" role="navigation" aria-label="Menu mobile">
+      <a href="#services">Services</a>
+      <a href="ramassage.html">Ramassage</a>
+      <a href="demenagement.html">Déménagement</a>
+      <a href="#portfolio">Réalisations</a>
+      <a href="#about">À Propos</a>
+      <a href="#service-area">Secteurs</a>
+      <a href="#reviews">Avis</a>
+      <a href="#contact">Devis Gratuit</a>
+      <a href="tel:5148632841" aria-label="Appeler TH Multi-services au 514-863-2841">📞 (514) 863-2841</a>
+    </nav>
+  </header>
+
+  <main>
+
+
+    <!-- ═══════ HERO ═══════ -->
+    <section id="hero" aria-labelledby="hero-heading">
+      <div class="hero-bg" role="img" aria-hidden="true"></div>
+      <div class="hero-bg-overlay" aria-hidden="true"></div>
+
+      <div class="hero-orb hero-orb-1" aria-hidden="true"></div>
+      <div class="hero-orb hero-orb-2" aria-hidden="true"></div>
+      <div class="hero-orb hero-orb-3" aria-hidden="true"></div>
+
+      <div class="hero-content">
+        <div class="hero-badge" role="status">
+          <span class="dot" aria-hidden="true"></span>
+          Disponible 7 jours / 7 — Montréal &amp; Environs
         </div>
+
+        <h1 class="hero-h1" id="hero-heading">
+          Service de Ramassage &amp;<br />
+          <span class="text-gradient">Déménagement à Montréal, Rive-Nord et Rive-Sud</span>
+        </h1>
+        <img class="hero-title-badge" src="assets/img/rive-sud-badge.png" alt="Rive-Sud badge" loading="lazy" />
+
+        <p class="hero-sub">
+          Service professionnel de ramassage résidentiel &amp; commercial, débarras, déménagement local et démolition légère.
+          Devis gratuit sous 24h, sans engagement.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary btn-xl">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z" />
+              <polyline points="14 2 14 8 20 8" />
+            </svg>
+            Obtenir un devis gratuit
+          </a>
+          <a href="tel:5148632841" class="btn btn-secondary btn-xl"
+            aria-label="Appeler TH Multi-services au 514-863-2841">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path
+                d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .99h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.79a16 16 0 006.12 6.12l1.07-1.16a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" />
+            </svg>
+            Appeler le (514) 863-2841
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-stats" role="list" aria-label="Chiffres clés">
+        <div class="hero-stat" role="listitem">
+          <div class="hero-stat-num">500<span>+</span></div>
+          <div class="hero-stat-label">Clients satisfaits</div>
+        </div>
+        <div class="hero-divider" aria-hidden="true"></div>
+        <div class="hero-stat" role="listitem">
+          <div class="hero-stat-num">4.9<span>★</span></div>
+          <div class="hero-stat-label">Note Google</div>
+        </div>
+        <div class="hero-divider" aria-hidden="true"></div>
+        <div class="hero-stat" role="listitem">
+          <div class="hero-stat-num">24<span>h</span></div>
+          <div class="hero-stat-label">Délai de réponse</div>
+        </div>
+        <div class="hero-divider" aria-hidden="true"></div>
+        <div class="hero-stat" role="listitem">
+          <div class="hero-stat-num">100<span>%</span></div>
+          <div class="hero-stat-label">Satisfaction garantie</div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ═══════ SERVICES ═══════ -->
+    <section id="services" class="section" aria-labelledby="services-heading">
+      <div class="container">
+        <div class="section-header" data-reveal="up">
+          <span class="eyebrow">Ce que nous faisons</span>
+          <h2 class="section-title" id="services-heading">Des solutions complètes,<br />du ramassage au déménagement</h2>
+          <p class="section-subtitle">Professionnels rapides et soigneux, disponibles pour particuliers comme pour
+            entreprises partout à Montréal.</p>
+        </div>
+
+        <div class="services-timeline">
+          <!-- Step 1 -->
+          <div class="service-timeline-item" data-reveal="up" data-delay="100">
+            <div class="service-timeline-image">
+              <img src="assets/img/portfolio/ramassage.jpg"
+                alt="Équipe de ramassage TH Multi-services chargeant des objets pour recyclage" loading="lazy"
+                decoding="async" width="600" height="450" />
+            </div>
+            <div class="service-timeline-content">
+              <div class="service-timeline-number">01</div>
+              <h3>Ramassage &amp; Récupération</h3>
+              <p>Nous vidons tous vos espaces encombrés : sous-sols, garages, greniers, entrepôts, bureaux ou
+                successions. Nous ramassons vos vieux meubles, appareils électroménagers défectueux, détritus, puis nous
+                balayons et nettoyons soigneusement après notre passage.</p>
+              <ul class="service-timeline-features">
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg> Tri sélectif & recyclage</li>
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg> Nettoyage complet après passage</li>
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg> Dons aux organismes de charité</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="service-timeline-item" data-reveal="up" data-delay="200">
+            <div class="service-timeline-image">
+              <img src="assets/img/portfolio/demenagement.jpg"
+                alt="Déménagement résidentiel professionnel à Montréal avec protection des meubles" loading="lazy"
+                decoding="async" width="600" height="450" />
+            </div>
+            <div class="service-timeline-content">
+              <div class="service-timeline-number">02</div>
+              <h3>Déménagement Professionnel</h3>
+              <p>Un service de déménagement local résidentiel et commercial, hautement sécurisé et sur mesure. Notre
+                équipe dynamique prend soin de manipuler vos cartons et meubles fragiles avec des équipements de
+                protection professionnels (couvertures, sangles, chariots).</p>
+              <ul class="service-timeline-features">
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg> Emballage et protection premium</li>
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg> Camions équipés et sécurisés</li>
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg> Assurance responsabilité complète</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="service-timeline-item" data-reveal="up" data-delay="300">
+            <div class="service-timeline-image">
+              <img src="assets/img/portfolio/transport.jpg"
+                alt="Camion de transport et livraison d'objets volumineux et lourds de TH Multi-services" loading="lazy"
+                decoding="async" width="600" height="450" />
+            </div>
+            <div class="service-timeline-content">
+              <div class="service-timeline-number">03</div>
+              <h3>Transport &amp; Livraison</h3>
+              <p>Besoin de transporter un meuble lourd, un piano, un appareil électroménager ou d'un ramassage rapide en
+                magasin ? Nous mettons nos véhicules utilitaires et nos déménageurs qualifiés à votre service pour des
+                livraisons express en toute confiance.</p>
+              <ul class="service-timeline-features">
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg> Manutention d'objets lourds</li>
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg> Ramassage et livraison magasin</li>
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg> Flexible et ponctuel</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ═══════ TRUST STRIP ═══════ -->
+    <section id="trust" class="section" aria-label="Nos engagements">
+      <div class="container">
+        <div class="trust-grid" data-reveal="up">
+          <div class="trust-item">
+            <div class="trust-icon" aria-hidden="true">⚡</div>
+            <div class="trust-title">Réponse rapide</div>
+            <div class="trust-desc">Devis par téléphone ou formulaire sous 24h, intervention possible le jour même.
+            </div>
+          </div>
+          <div class="trust-item">
+            <div class="trust-icon" aria-hidden="true">💰</div>
+            <div class="trust-title">Prix transparents</div>
+            <div class="trust-desc">Tarifs ultra-compétitifs, sans frais cachés ni mauvaises surprises à la fin.</div>
+          </div>
+          <div class="trust-item">
+            <div class="trust-icon" aria-hidden="true">🤝</div>
+            <div class="trust-title">Impact humanitaire</div>
+            <div class="trust-desc">Les objets récupérables sont donnés à des organismes humanitaires partenaires.</div>
+          </div>
+          <div class="trust-item">
+            <div class="trust-icon" aria-hidden="true">🔒</div>
+            <div class="trust-title">Satisfaction garantie</div>
+            <div class="trust-desc">Travail soigné, ponctuel et professionnel. Nous ne partons pas tant que vous n'êtes
+              pas satisfait.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ═══════ PORTFOLIO ═══════ -->
+    <section id="portfolio" class="section" aria-labelledby="portfolio-heading">
+      <div class="container">
+        <div class="section-header" data-reveal="up">
+          <span class="eyebrow">Nos réalisations</span>
+          <h2 class="section-title" id="portfolio-heading">Travaux récents en ramassage et déménagement</h2>
+          <p class="section-subtitle">Découvrez nos interventions de démolition légère, ramassage d'encombrants, vide maison et transport de biens. Junk removal, debris removal, moving services, house cleanout et hauling services.</p>
+        </div>
+
+        <div class="portfolio-grid">
+          <!-- Card 1 (Photo) -->
+          <div class="portfolio-card" data-reveal="up" data-delay="100" data-modal="modal-1" role="button" tabindex="0"
+            aria-label="Voir les détails : Déménagement résidentiel local">
+            <img src="assets/img/portfolio/Gemini_Generated_Image_mtlow5mtlow5mtlo.png"
+              alt="Déménagement résidentiel complet avec camion chargé de boîtes et bagages" loading="lazy"
+              decoding="async" width="600" height="450" />
+            <div class="portfolio-overlay">
+              <span class="portfolio-tag">Déménagement local</span>
+              <div class="portfolio-title">Déménagement résidentiel complet</div>
+            </div>
+            <div class="portfolio-expand" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M15 3h6m0 0v6m0-6L9 15M5 21H3a2 2 0 01-2-2v-2" />
+              </svg>
+            </div>
+          </div>
+
+          <!-- Card 2 (Photo) -->
+          <div class="portfolio-card" data-reveal="up" data-delay="200" data-modal="modal-2" role="button" tabindex="0"
+            aria-label="Voir les détails : Évacuation d'encombrants">
+            <img src="assets/img/portfolio/6c4f0824-d755-4785-9bda-db027c851eb6.JPG"
+              alt="Ramassage et évacuation de vieux meubles et objets volumineux" loading="lazy"
+              decoding="async" width="600" height="450" />
+            <div class="portfolio-overlay">
+              <span class="portfolio-tag">Déménagement local</span>
+              <div class="portfolio-title">Évacuation de meubles et encombrants</div>
+            </div>
+            <div class="portfolio-expand" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M15 3h6m0 0v6m0-6L9 15M5 21H3a2 2 0 01-2-2v-2" />
+              </svg>
+            </div>
+          </div>
+
+          <!-- Card 3 (Photo) -->
+          <div class="portfolio-card" data-reveal="up" data-delay="300" data-modal="modal-3" role="button" tabindex="0"
+            aria-label="Voir les détails : Démolition légère et tri">
+            <img src="assets/img/portfolio/Gemini_Generated_Image_h5nk1xh5nk1xh5nk.png"
+              alt="Démolition légère et tri de débris de chantier" loading="lazy"
+              decoding="async" width="600" height="450" />
+            <div class="portfolio-overlay">
+              <span class="portfolio-tag">Démolition</span>
+              <div class="portfolio-title">Démolition légère &amp; tri de débris</div>
+            </div>
+            <div class="portfolio-expand" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M15 3h6m0 0v6m0-6L9 15M5 21H3a2 2 0 01-2-2v-2" />
+              </svg>
+            </div>
+          </div>
+
+          <!-- Card 4 (Photo) -->
+          <div class="portfolio-card" data-reveal="up" data-delay="100" data-modal="modal-4" role="button" tabindex="0"
+            aria-label="Voir les détails : Nettoyage et vidage complet">
+            <img src="assets/img/portfolio/Gemini_Generated_Image_cdhvmecdhvmecdhv.png"
+              alt="Tri d'objets, ramassage et nettoyage complet après déménagement" loading="lazy" decoding="async"
+              width="600" height="450" />
+            <div class="portfolio-overlay">
+              <span class="portfolio-tag">Vide maison</span>
+              <div class="portfolio-title">Nettoyage complet de sous-sol &amp; garage</div>
+            </div>
+            <div class="portfolio-expand" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M15 3h6m0 0v6m0-6L9 15M5 21H3a2 2 0 01-2-2v-2" />
+              </svg>
+            </div>
+          </div>
+
+          <!-- Card 5 (Photo) -->
+          <div class="portfolio-card" data-reveal="up" data-delay="200" data-modal="modal-5" role="button" tabindex="0"
+            aria-label="Voir les détails : Transport sécurisé">
+            <img src="assets/img/portfolio/photo3.jpeg"
+              alt="Transport sécurisé d'électroménagers emballés et protégés" loading="lazy"
+              decoding="async" width="600" height="450" />
+            <div class="portfolio-overlay">
+              <span class="portfolio-tag">Transport lourd</span>
+              <div class="portfolio-title">Transport sécurisé d'électroménagers</div>
+            </div>
+            <div class="portfolio-expand" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M15 3h6m0 0v6m0-6L9 15M5 21H3a2 2 0 01-2-2v-2" />
+              </svg>
+            </div>
+          </div>
+
+          <!-- Card 6 (Photo) -->
+          <div class="portfolio-card" data-reveal="up" data-delay="300" data-modal="modal-6" role="button" tabindex="0"
+            aria-label="Voir les détails : Transport de boîtes et valises">
+            <img src="assets/img/portfolio/Gemini_Generated_Image_jfj3amjfj3amjfj3.png"
+              alt="Transport de boîtes et valises chargées dans un camion de déménagement" loading="lazy"
+              decoding="async" width="600" height="450" />
+            <div class="portfolio-overlay">
+              <span class="portfolio-tag">Déménagement</span>
+              <div class="portfolio-title">Transport de boîtes et valises</div>
+            </div>
+            <div class="portfolio-expand" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M15 3h6m0 0v6m0-6L9 15M5 21H3a2 2 0 01-2-2v-2" />
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-video-grid" data-reveal="up" data-delay="100">
+          <div class="portfolio-video-card">
+            <video src="assets/img/portfolio/ww_video1.mp4" autoplay muted loop playsinline preload="auto"></video>
+          </div>
+          <div class="portfolio-video-card">
+            <video src="assets/img/portfolio/ww_video2.mp4" autoplay muted loop playsinline preload="auto"></video>
+          </div>
+          <div class="portfolio-video-card">
+            <video src="assets/img/portfolio/ww_video3.mp4" autoplay muted loop playsinline preload="auto"></video>
+          </div>
+          <div class="portfolio-video-card">
+            <video src="assets/img/portfolio/ww_video4.mp4" autoplay muted loop playsinline preload="auto"></video>
+          </div>
+          <div class="portfolio-video-card">
+            <video src="assets/img/portfolio/ww_video5.mp4" autoplay muted loop playsinline preload="auto"></video>
+          </div>
+          <div class="portfolio-video-card">
+            <video src="assets/img/portfolio/ww_video6.mp4" autoplay muted loop playsinline preload="auto"></video>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ═══════ ABOUT ═══════ -->
+    <section id="about" class="section" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-text">
+            <span class="eyebrow" data-reveal="up">À propos de nous</span>
+            <h2 class="section-title" data-reveal="up" data-delay="100" id="about-heading">
+              Professionnels de confiance,<br />résultats garantis
+            </h2>
+            <p class="section-subtitle" data-reveal="up" data-delay="200">
+              Notre engagement : un service professionnel, efficace et sans stress. Nous couvrons un large éventail de
+              besoins à Montréal et ses environs.
+            </p>
+
+            <div class="about-values">
+              <div class="value-item" data-reveal="up" data-delay="100">
+                <span class="value-icon" aria-hidden="true">🎯</span>
+                <div class="value-text">
+                  <h3>Satisfaction totale des clients</h3>
+                  <p>Votre sérénité est notre réussite. Communication transparente et écoute attentive à chaque étape.
+                  </p>
+                </div>
+              </div>
+              <div class="value-item" data-reveal="up" data-delay="200">
+                <span class="value-icon" aria-hidden="true">⭐</span>
+                <div class="value-text">
+                  <h3>Service clé en main d'excellence</h3>
+                  <p>Ponctualité, courtoisie, rigueur et efficacité définissent la qualité constante de notre travail
+                    sur le terrain.</p>
+                </div>
+              </div>
+              <div class="value-item" data-reveal="up" data-delay="300">
+                <span class="value-icon" aria-hidden="true">🌿</span>
+                <div class="value-text">
+                  <h3>Seconde vie aux objets</h3>
+                  <p>Les biens récupérables sont redistribués à des organisations humanitaires partenaires — rien ne se
+                    perd.</p>
+                </div>
+              </div>
+              <div class="value-item" data-reveal="up" data-delay="400">
+                <span class="value-icon" aria-hidden="true">💎</span>
+                <div class="value-text">
+                  <h3>Tarification juste et transparente</h3>
+                  <p>Des prix compétitifs, sans frais cachés, adaptés à votre budget réel. Pas de surprises à la fin.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-visual" data-reveal="right">
+            <div class="about-img-main">
+              <img src="assets/img/header-bg-nw.png"
+                alt="Équipe professionnelle de TH Multi-services effectuant un ramassage commercial" loading="lazy"
+                decoding="async" width="700" height="875" />
+            </div>
+            <div class="about-badge" aria-label="Plus de 5 ans d'expérience">
+              <div class="about-badge-num">5+</div>
+              <div class="about-badge-label">Ans d'expérience</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ═══════ SERVICE AREA ═══════ -->
+    <section id="service-area" class="section" aria-labelledby="service-area-heading">
+      <div class="container">
+        <div class="section-header" data-reveal="up">
+          <span class="eyebrow">Secteurs desservis</span>
+          <h2 class="section-title" id="service-area-heading">Notre zone de service</h2>
+          <p class="section-subtitle">Nous intervenons rapidement pour tous vos besoins de ramassage et déménagement dans
+            le Grand Montréal et ses environs.</p>
+        </div>
+
+        <div class="service-area-grid">
+          <div class="service-area-info" data-reveal="left">
+            <h3 class="area-subtitle">Régions desservies :</h3>
+            <ul class="area-list">
+              <li data-reveal="up" data-delay="100">
+                <strong class="area-name">📍 Laval</strong>
+                <span class="area-details">Pont-Viau, Chomedey, Duvernay, Laval-des-Rapides, Sainte-Dorothée, Vimont,
+                  Fabreville, etc.</span>
+              </li>
+              <li data-reveal="up" data-delay="200">
+                <strong class="area-name">📍 Île de Montréal</strong>
+                <span class="area-details">Centre-ville, Plateau-Mont-Royal, West Island, Ville-Marie,
+                  Mercier-Hochelaga-Maisonneuve, Anjou, etc.</span>
+              </li>
+              <li data-reveal="up" data-delay="300">
+                <strong class="area-name">📍 Rive-Nord</strong>
+                <span class="area-details">Terrebonne, Saint-Eustache, Blainville, Repentigny, Mirabel, Mascouche,
+                  Deux-Montagnes, etc.</span>
+              </li>
+              <li data-reveal="up" data-delay="400">
+                <strong class="area-name">📍 Rive-Sud</strong>
+                <span class="area-details">Longueuil, Brossard, Saint-Lambert, Boucherville, Saint-Hubert, Châteauguay,
+                  Saint-Jean-sur-Richelieu, etc.</span>
+              </li>
+              <li data-reveal="up" data-delay="500">
+                <strong class="area-name">📍 Vaudreuil-Soulanges</strong>
+                <span class="area-details">Vaudreuil-Dorion, Pincourt, Saint-Lazare, L'Île-Perrot, Rigaud, Hudson,
+                  etc.</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="service-area-visual" data-reveal="right">
+            <div class="map-wrapper">
+              <img src="assets/img/service-map.png"
+                alt="Carte des zones de service de TH Multi-services — Montréal, Laval, Rive-Nord, Rive-Sud, Vaudreuil-Soulanges"
+                loading="lazy" decoding="async" width="700" height="525" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- ═══════ REVIEWS ═══════ -->
+    <section id="reviews" class="section" aria-labelledby="reviews-heading">
+      <div class="container">
+        <div class="section-header" data-reveal="up">
+          <span class="eyebrow">Avis Clients</span>
+          <h2 class="section-title" id="reviews-heading">Ce que nos clients disent de nous</h2>
+          <p class="section-subtitle">Nous offrons un service de ramassage et déménagement d'excellence à Montréal.
+            Découvrez les retours de nos clients.</p>
+        </div>
+
+        <!-- Rating summary card -->
+        <div class="reviews-summary" data-reveal="up" data-delay="100">
+          <div class="summary-logo" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="38" height="38" fill="currentColor">
+              <path
+                d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"
+                fill="#4285F4" />
+              <path
+                d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
+                fill="#34A853" />
+              <path
+                d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"
+                fill="#FBBC05" />
+              <path
+                d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"
+                fill="#EA4335" />
+            </svg>
+          </div>
+          <div class="summary-info">
+            <div class="summary-rating">
+              <span class="rating-num">4.9</span>
+              <div class="rating-stars" aria-label="5 étoiles sur 5">
+                <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+              </div>
+            </div>
+            <p class="summary-text">Note globale basée sur nos avis Google Maps</p>
+          </div>
+          <div class="summary-actions">
+            <a href="https://www.google.com/maps/place/TH+multi+services/@45.8030717,-74.5032461,9.58z/data=!4m6!3m5!1s0xd94cd2e55837213:0x8674ed885a604faf!8m2!3d45.576958!4d-73.803093!16s%2Fg%2F11z0w74b9_?entry=ttu&g_ep=EgoyMDI2MDYyOS4wIKXMDSoASAFQAw%3D%3D"
+              target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm"
+              aria-label="Consulter nos avis clients TH Multi-services sur Google Maps">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                stroke-linecap="round" stroke-linejoin="round" style="color:var(--c-blue);" aria-hidden="true">
+                <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2 2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3" />
+              </svg>
+              Consulter nos avis sur Google Maps
+            </a>
+          </div>
+        </div>
+
+        <!-- Reviews Grid -->
+        <div class="reviews-grid">
+          <!-- Review 1 (Despina) -->
+          <div class="review-card" data-reveal="up" data-delay="100">
+            <div class="review-header">
+              <div class="reviewer-avatar avatar-c" aria-hidden="true">D</div>
+              <div class="reviewer-meta">
+                <h3 class="reviewer-name">Despina</h3>
+                <div class="reviewer-verified">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
+                    <polyline points="22 4 12 14.01 9 11.01" />
+                  </svg>
+                  Avis Google vérifié
+                </div>
+              </div>
+            </div>
+            <div class="review-rating">
+              <div class="stars" aria-label="5 étoiles">★★★★★</div>
+              <span class="review-date">Il y a 3 semaines</span>
+            </div>
+            <p class="review-content">
+              "Mon expérience avec Hakim a été très satisfaisante. Dès le premier appel téléphonique, il s'est montré
+              courtois et ponctuel. Son service de chargement et de déchargement s'est déroulé sans aucun problème. De
+              Montréal à Niagara Falls, il a transporté mes affaires avec respect. Vous pouvez lui faire confiance les
+              yeux fermés."
+            </p>
+            <div class="review-tag tag-move">
+              <span class="tag-icon">🚚</span> Déménagement longue distance
+            </div>
+          </div>
+
+          <!-- Review 2 (Madiha Mamdouh) -->
+          <div class="review-card" data-reveal="up" data-delay="200">
+            <div class="review-header">
+              <div class="reviewer-avatar avatar-m" aria-hidden="true">MM</div>
+              <div class="reviewer-meta">
+                <h3 class="reviewer-name">Madiha Mamdouh</h3>
+                <div class="reviewer-verified">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
+                    <polyline points="22 4 12 14.01 9 11.01" />
+                  </svg>
+                  Avis Google vérifié
+                </div>
+              </div>
+            </div>
+            <div class="review-rating">
+              <div class="stars" aria-label="5 étoiles">★★★★★</div>
+              <span class="review-date">Il y a 1 semaine</span>
+            </div>
+            <p class="review-content">
+              "Les meilleurs movers ! 👍💯 Nous avons eu la meilleure expérience de déménagement avec eux. L'équipe a
+              été très professionnelle, ponctuelle et courtoise. Un service impeccable de bout en bout."
+            </p>
+            <div class="review-tag tag-move">
+              <span class="tag-icon">🏠</span> Déménagement résidentiel
+            </div>
+          </div>
+
+          <!-- Review 3 (Forkwa Bestina Ewang) -->
+          <div class="review-card" data-reveal="up" data-delay="300">
+            <div class="review-header">
+              <div class="reviewer-avatar avatar-n" aria-hidden="true">FE</div>
+              <div class="reviewer-meta">
+                <h3 class="reviewer-name">Forkwa Bestina Ewang</h3>
+                <div class="reviewer-verified">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
+                    <polyline points="22 4 12 14.01 9 11.01" />
+                  </svg>
+                  Avis Google vérifié
+                </div>
+              </div>
+            </div>
+            <div class="review-rating">
+              <div class="stars" aria-label="5 étoiles">★★★★★</div>
+              <span class="review-date">Il y a 3 jours</span>
+            </div>
+            <p class="review-content">
+              "Très professionnels et sympathiques. J'ai vraiment apprécié leurs services pour notre projet. Tout s'est
+              déroulé de façon impeccable. Je recommande vivement TH Multi-services ! 👌"
+            </p>
+            <div class="review-tag tag-waste">
+              <span class="tag-icon">📦</span> Service recommandé
+            </div>
+          </div>
+
+          <!-- Review 4 (Line Fournier) -->
+          <div class="review-card" data-reveal="up" data-delay="100">
+            <div class="review-header">
+              <div class="reviewer-avatar avatar-j" aria-hidden="true">LF</div>
+              <div class="reviewer-meta">
+                <h3 class="reviewer-name">Line Fournier</h3>
+                <div class="reviewer-verified">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
+                    <polyline points="22 4 12 14.01 9 11.01" />
+                  </svg>
+                  Avis Google vérifié
+                </div>
+              </div>
+            </div>
+            <div class="review-rating">
+              <div class="stars" aria-label="5 étoiles">★★★★★</div>
+              <span class="review-date">Il y a 1 jour</span>
+            </div>
+            <p class="review-content">
+              "Excellent service ! Le personnel est très courtois, la réponse est ultra rapide et l'exécution du
+              ramassage/cueillette a été faite dans les meilleurs délais. Très satisfaite de leur travail."
+            </p>
+            <div class="review-tag tag-decor">
+              <span class="tag-icon">⚡</span> Cueillette & Ramassage
+            </div>
+          </div>
+
+          <!-- Review 5 (moulou mimou) -->
+          <div class="review-card" data-reveal="up" data-delay="200">
+            <div class="review-header">
+              <div class="reviewer-avatar avatar-b" aria-hidden="true">MM</div>
+              <div class="reviewer-meta">
+                <h3 class="reviewer-name">Moulou Mimou</h3>
+                <div class="reviewer-verified">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
+                    <polyline points="22 4 12 14.01 9 11.01" />
+                  </svg>
+                  Avis Google vérifié
+                </div>
+              </div>
+            </div>
+            <div class="review-rating">
+              <div class="stars" aria-label="5 étoiles">★★★★★</div>
+              <span class="review-date">Il y a 1 mois</span>
+            </div>
+            <p class="review-content">
+              "Service impeccable ! L'équipe a fait preuve d'un grand professionnalisme du début à la fin pour le
+              ramassage. C'est un réel plaisir de faire affaire avec des gens si sérieux. Un grand merci !"
+            </p>
+            <div class="review-tag tag-succession">
+              <span class="tag-icon">🛠️</span> Ramassage Professionnel
+            </div>
+          </div>
+
+          <!-- Review 6 (Abdou salam Gueye) -->
+          <div class="review-card" data-reveal="up" data-delay="300">
+            <div class="review-header">
+              <div class="reviewer-avatar avatar-p" aria-hidden="true">AG</div>
+              <div class="reviewer-meta">
+                <h3 class="reviewer-name">Abdou Salam Gueye</h3>
+                <div class="reviewer-verified">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
+                    <polyline points="22 4 12 14.01 9 11.01" />
+                  </svg>
+                  Avis Google vérifié
+                </div>
+              </div>
+            </div>
+            <div class="review-rating">
+              <div class="stars" aria-label="5 étoiles">★★★★★</div>
+              <span class="review-date">Il y a 3 semaines</span>
+            </div>
+            <p class="review-content">
+              "Excellent service. Ils sont très professionnels, ponctuels et efficaces dans leur travail. Je les
+              recommande chaleureusement pour tous vos besoins de transport."
+            </p>
+            <div class="review-tag tag-delivery">
+              <span class="tag-icon">📦</span> Efficace & Ponctuel
+            </div>
+          </div>
+        </div>
+
+        <!-- Review Footer CTA -->
+        <div class="reviews-footer" data-reveal="up" data-delay="100">
+          <p>Vous avez travaillé avec nous ? Partagez votre expérience !</p>
+          <a href="https://www.google.com/maps/place/TH+multi+services/@45.8030717,-74.5032461,9.58z/data=!4m6!3m5!1s0xd94cd2e55837213:0x8674ed885a604faf!8m2!3d45.576958!4d-73.803093!16s%2Fg%2F11z0w74b9_?entry=ttu&g_ep=EgoyMDI2MDYyOS4wIKXMDSoASAFQAw%3D%3D"
+            target="_blank" rel="noopener noreferrer" class="btn btn-primary"
+            aria-label="Écrire un avis Google pour TH Multi-services">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M12 20h9" />
+              <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" />
+            </svg>
+            Laisser un avis Google Maps
+          </a>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ═══════ CONTACT / DEVIS ═══════ -->
+    <section id="contact" class="section" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="contact-grid">
+          <!-- Left: info -->
+          <div class="contact-info">
+            <span class="eyebrow" data-reveal="up">Devis gratuit</span>
+            <h2 class="section-title" data-reveal="up" data-delay="100" id="contact-heading">
+              Parlons de votre projet
+            </h2>
+            <p class="section-subtitle" data-reveal="up" data-delay="200">
+              Remplissez le formulaire ou appelez-nous directement. Nous vous répondons sous 24 heures, sans engagement.
+            </p>
+
+            <div class="contact-features" data-reveal="up" data-delay="300">
+              <div class="contact-feature">
+                <span class="contact-feature-icon" aria-hidden="true">📋</span>
+                Devis gratuit et sans engagement
+              </div>
+              <div class="contact-feature">
+                <span class="contact-feature-icon" aria-hidden="true">⚡</span>
+                Réponse garantie sous 24 heures
+              </div>
+              <div class="contact-feature">
+                <span class="contact-feature-icon" aria-hidden="true">🗓️</span>
+                Disponible 7j/7, intervention rapide
+              </div>
+            </div>
+
+            <a href="tel:5148632841" class="contact-phone-big" data-reveal="up" data-delay="400"
+              aria-label="Appeler TH Multi-services au 514-863-2841">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path
+                  d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .99h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.79a16 16 0 006.12 6.12l1.07-1.16a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" />
+              </svg>
+              Appeler le (514) 863-2841
+            </a>
+          </div>
+
+          <!-- Right: form -->
+          <div class="form-card" data-reveal="left">
+            <form id="contactForm" enctype="multipart/form-data" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="name">Nom complet <span aria-hidden="true">*</span></label>
+                  <input class="form-control" id="name" type="text" placeholder="Jean Dupont" autocomplete="name"
+                    required />
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="email">Courriel <span aria-hidden="true">*</span></label>
+                  <input class="form-control" id="email" type="email" placeholder="jean@example.com"
+                    autocomplete="email" required />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="phone">Téléphone <span aria-hidden="true">*</span></label>
+                  <input class="form-control" id="phone" type="tel" placeholder="(514) 555-0000" autocomplete="tel"
+                    required />
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="service">Service désiré <span aria-hidden="true">*</span></label>
+                  <select class="form-control" id="service" required>
+                    <option value="" disabled selected>Choisir un service…</option>
+                    <option value="Déménagement professionnel">Déménagement professionnel</option>
+                    <option value="Ramassage de débris">Ramassage de débris</option>
+                    <option value="Transport & Livraison">Transport &amp; Livraison</option>
+                    <option value="Autre service">Autre service</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="adresseDepart">Adresse de départ <span
+                      aria-hidden="true">*</span></label>
+                  <input class="form-control" id="adresseDepart" type="text" placeholder="123 Rue Principale, Montréal"
+                    required />
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="adresseArrivee">Adresse d'arrivée</label>
+                  <input class="form-control" id="adresseArrivee" type="text" placeholder="Facultatif" />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="message">Détails du projet <span aria-hidden="true">*</span></label>
+                <textarea class="form-control" id="message"
+                  placeholder="Décrivez votre projet : liste de meubles, volume de débris, étage, présence d'ascenseur…"
+                  required></textarea>
+              </div>
+
+              <div id="form-success" class="form-feedback" role="alert" aria-live="polite"></div>
+              <div id="form-error" class="form-feedback" role="alert" aria-live="assertive"></div>
+
+              <button class="btn btn-primary btn-xl" id="submitButton" type="submit"
+                style="width:100%; justify-content:center;">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="22" y1="2" x2="11" y2="13" />
+                  <polygon points="22 2 15 22 11 13 2 9 22 2" />
+                </svg>
+                Envoyer ma demande de devis
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ═══════ FOOTER ═══════ -->
+    <footer role="contentinfo">
+      <div class="container">
+        <div class="footer-inner">
+          <a href="#hero" class="footer-logo" aria-label="TH Multi-services — Retour en haut de page">
+            <img src="assets/img/logoTH.png" alt="Logo TH Multi-services — ramassage et déménagement Montréal, Rive-Nord et Rive-Sud"
+              loading="lazy" decoding="async" />
+          </a>
+
+          <p class="footer-copy">
+            &copy; 2026 TH Multi-services. Tous droits réservés.
+          </p>
+
+          <a href="mailto:thmultiservices95@gmail.com" class="footer-email"
+            aria-label="Envoyer un courriel à TH Multi-services">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+              <polyline points="22,6 12,13 2,6" />
+            </svg>
+            thmultiservices95@gmail.com
+          </a>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+
+  <!-- ═══════ MODALS ═══════ -->
+
+  <!-- Modal 1 -->
+  <div class="modal-overlay" id="modal-1" role="dialog" aria-modal="true" aria-labelledby="modal-1-title"
+    aria-hidden="true">
+    <div class="modal-box">
+      <button class="modal-close" aria-label="Fermer">✕</button>
+      <img class="modal-img" src="assets/img/portfolio/Gemini_Generated_Image_mtlow5mtlow5mtlo.png" alt="Déménagement résidentiel complet" loading="lazy" />
+      <div class="modal-body">
+        <p class="modal-tag">Déménagement local</p>
+        <h3 class="modal-title" id="modal-1-title">Déménagement résidentiel complet</h3>
+        <p class="modal-desc">Déménagement résidentiel complet, emballage soigné et transport sécurisé pour vos meubles
+          et effets personnels. Nous prenons soin de chaque étape pour une expérience sans stress.</p>
+        <a href="#contact" class="btn btn-primary">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            aria-hidden="true">
+            <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z" />
+            <polyline points="14 2 14 8 20 8" />
+          </svg>
+          Demander un devis pour ce service
+        </a>
+      </div>
     </div>
-</div>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    </body>
+  </div>
+
+  <!-- Modal 2 -->
+  <div class="modal-overlay" id="modal-2" role="dialog" aria-modal="true" aria-labelledby="modal-2-title"
+    aria-hidden="true">
+    <div class="modal-box">
+      <button class="modal-close" aria-label="Fermer">✕</button>
+      <img class="modal-img" src="assets/img/portfolio/666978271_122132253537052143_8772311280378406759_n.jpg" alt="Évacuation de meubles et encombrants"
+        loading="lazy" />
+      <div class="modal-body">
+        <p class="modal-tag">Déménagement</p>
+        <h3 class="modal-title" id="modal-2-title">Évacuation de meubles et encombrants</h3>
+        <p class="modal-desc">Ramassage et évacuation rapides de meubles, électroménagers et encombrants. Nous trions
+          efficacement et orientons vers les solutions responsables : recyclage, dons ou écocentre.</p>
+        <a href="#contact" class="btn btn-primary">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            aria-hidden="true">
+            <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z" />
+            <polyline points="14 2 14 8 20 8" />
+          </svg>
+          Demander un devis pour ce service
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 3 -->
+  <div class="modal-overlay" id="modal-3" role="dialog" aria-modal="true" aria-labelledby="modal-3-title"
+    aria-hidden="true">
+    <div class="modal-box">
+      <button class="modal-close" aria-label="Fermer">✕</button>
+      <img class="modal-img" src="assets/img/portfolio/Gemini_Generated_Image_h5nk1xh5nk1xh5nk.png" alt="Démolition légère et tri de débris" loading="lazy" />
+      <div class="modal-body">
+        <p class="modal-tag">Démolition</p>
+        <h3 class="modal-title" id="modal-3-title">Démolition légère &amp; tri de débris</h3>
+        <p class="modal-desc">Démolition légère, débarras et tri de débris pour remettre votre chantier en ordre.
+          Nous gérons l'enlèvement propre des matériaux et déchets afin de libérer rapidement votre espace.</p>
+        <a href="#contact" class="btn btn-primary">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            aria-hidden="true">
+            <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z" />
+            <polyline points="14 2 14 8 20 8" />
+          </svg>
+          Demander un devis pour ce service
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 4 -->
+  <div class="modal-overlay" id="modal-4" role="dialog" aria-modal="true" aria-labelledby="modal-4-title"
+    aria-hidden="true">
+    <div class="modal-box">
+      <button class="modal-close" aria-label="Fermer">✕</button>
+      <img class="modal-img" src="assets/img/portfolio/Gemini_Generated_Image_cdhvmecdhvmecdhv.png" alt="Nettoyage complet de sous-sol et garage"
+        loading="lazy" />
+      <div class="modal-body">
+        <p class="modal-tag">Vide maison</p>
+        <h3 class="modal-title" id="modal-4-title">Nettoyage complet de sous-sol &amp; garage</h3>
+        <p class="modal-desc">Nettoyage, tri et évacuation de sous-sol et garage : objets, cartons, déchets et encombrants.
+          Nous rendons votre espace propre et libéré pour une meilleure organisation.</p>
+        <a href="#contact" class="btn btn-primary">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            aria-hidden="true">
+            <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z" />
+            <polyline points="14 2 14 8 20 8" />
+          </svg>
+          Demander un devis pour ce service
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 5 -->
+  <div class="modal-overlay" id="modal-5" role="dialog" aria-modal="true" aria-labelledby="modal-5-title"
+    aria-hidden="true">
+    <div class="modal-box">
+      <button class="modal-close" aria-label="Fermer">✕</button>
+      <img class="modal-img" src="assets/img/portfolio/photo3.jpeg" alt="Transport sécurisé d'électroménagers" loading="lazy" />
+      <div class="modal-body">
+        <p class="modal-tag">Transport lourd</p>
+        <h3 class="modal-title" id="modal-5-title">Transport sécurisé d'électroménagers</h3>
+        <p class="modal-desc">Transport et manutention sécurisés d'électroménagers et équipements volumineux.
+          Nous protégeons vos biens pour qu'ils arrivent intacts à destination.</p>
+        <a href="#contact" class="btn btn-primary">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            aria-hidden="true">
+            <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z" />
+            <polyline points="14 2 14 8 20 8" />
+          </svg>
+          Demander un devis pour ce service
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 6 -->
+  <div class="modal-overlay" id="modal-6" role="dialog" aria-modal="true" aria-labelledby="modal-6-title"
+    aria-hidden="true">
+    <div class="modal-box">
+      <button class="modal-close" aria-label="Fermer">✕</button>
+      <img class="modal-img" src="assets/img/portfolio/Gemini_Generated_Image_jfj3amjfj3amjfj3.png" alt="Transport de boîtes et valises"
+        loading="lazy" />
+      <div class="modal-body">
+        <p class="modal-tag">Transport</p>
+        <h3 class="modal-title" id="modal-6-title">Transport de boîtes et valises</h3>
+        <p class="modal-desc">Transport soigné de vos boîtes, valises et effets personnels. Que ce soit pour un déménagement partiel ou un simple transport, nous assurons une prise en charge rapide et sécurisée de vos affaires.</p>
+        <a href="#contact" class="btn btn-primary">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            aria-hidden="true">
+            <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z" />
+            <polyline points="14 2 14 8 20 8" />
+          </svg>
+          Demander un devis pour ce service
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ═══════ SCRIPTS ═══════ -->
+  <script src="js/scripts.js" defer></script>
+</body>
+
 </html>
